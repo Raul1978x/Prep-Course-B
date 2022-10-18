@@ -19,14 +19,15 @@ function encuentraPares(array) {
   // Devuelve un arreglo con los pares encontrados
   // en el arreglo de enteros pasado como parámetro
   // Tu código:
-/*  let pares = [];
-  for(let i= 1;i<array.length;i++){
+  let array_par = [];
+  for(let i= 0;i<array.length;i++){
     if(array[i] % 2 ==0){
-      pares.push(i);
-       return pares*/
-       var array_par =array.filter(function(numero){
+      array_par.push(array[i]);
+    }
+  }
+      /* var array_par =array.filter(function(numero){
         return numero % 2  == 0
-      });
+      });*/
       return array_par;
 }
  
